@@ -6,6 +6,7 @@ import { Bars3Icon } from '@heroicons/react/24/outline';
 
 import Drawer from './Drawer';
 import Drawerdata from './Drawerdata';
+import CallNowButton from './CallButton';
 
 interface NavigationItem {
   name: string;
@@ -25,7 +26,6 @@ function classNames(...classes: string[]) {
 }
 
 const Navbar = () => {
-  const phoneNumber = '+61 469 114 477';
   const [isOpen, setIsOpen] = React.useState(false);
 
   return (
@@ -38,7 +38,7 @@ const Navbar = () => {
 
               <div className="flex sm:hidden flex-shrink-0 items-center border-right">
                 <Image
-                  src="/images/Logo/Logo.png"
+                  src="/images/Logo/logo.png"
                   alt="logo"
                   width={36}
                   height={36}
@@ -52,7 +52,7 @@ const Navbar = () => {
               </div>
               <div className="hidden sm:flex flex-shrink-0 items-center border-right">
                 <Image
-                  src="/images/Logo/Logo.png"
+                  src="/images/Logo/ogo.png"
                   alt="logo"
                   width={56}
                   height={56}
@@ -96,12 +96,8 @@ const Navbar = () => {
                   />
                   <p className="text-lg font-medium">+61 469 114 477</p>
                 </div>
-                <Link
-                  href={`tel:${phoneNumber}`}
-                  className="flex justify-end text-xl font-medium bg-bgpink text-pink py-4 px-4 lg:px-8 navbutton rounded-full hover:text-white hover:bg-pink"
-                >
-                  Call Now
-                </Link>
+
+                <CallNowButton className="flex justify-end text-xl font-medium bg-bgpink text-pink py-4 px-4 lg:px-8 navbutton rounded-full hover:text-white hover:bg-pink" />
                 {/* <Signindialog /> */}
               </div>
             </div>

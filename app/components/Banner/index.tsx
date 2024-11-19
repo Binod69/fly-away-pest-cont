@@ -1,12 +1,9 @@
 'use client';
-
 import Image from 'next/image';
 import { Fade } from 'react-awesome-reveal';
-import Link from 'next/link';
+import CallNowButton from '../Navbar/CallButton';
 
 const Banner = () => {
-  const phoneNumber = '+61 469 114 477';
-
   return (
     <div id="home-section" className="bg-lightpink">
       <div className="mx-auto max-w-7xl pt-20 sm:pb-24 px-6">
@@ -45,9 +42,7 @@ const Banner = () => {
               triggerOnce={true}
             >
               <div className="md:flex align-middle justify-center lg:justify-start">
-                <button className="text-xl w-full md:w-auto font-medium rounded-full text-white py-5 px-6 bg-pink lg:px-14 mr-6">
-                  <Link href={`tel:${phoneNumber}`}>Call Now</Link>
-                </button>
+                <CallNowButton className="text-xl w-full md:w-auto font-medium rounded-full text-white py-5 px-6 bg-pink lg:px-14 mr-6" />
               </div>
             </Fade>
           </div>
