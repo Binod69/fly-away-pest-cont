@@ -52,7 +52,7 @@ const Navbar = () => {
               </div>
               <div className="hidden sm:flex flex-shrink-0 items-center border-right">
                 <Image
-                  src="/images/Logo/ogo.png"
+                  src="/images/Logo/logo.png"
                   alt="logo"
                   width={56}
                   height={56}
@@ -86,7 +86,7 @@ const Navbar = () => {
                   ))}
                 </div>
               </div>
-              <div className="gap-6 hidden lg:flex">
+              <div className="gap-6 hidden lg:flex ">
                 <div className="flex items-center gap-2">
                   <Image
                     src={'/images/Navbar/phone.svg'}
@@ -97,8 +97,7 @@ const Navbar = () => {
                   <p className="text-lg font-medium">+61 469 114 477</p>
                 </div>
 
-                <CallNowButton className="flex justify-end text-xl font-medium bg-bgpink text-pink py-4 px-4 lg:px-8 navbutton rounded-full hover:text-white hover:bg-pink" />
-                {/* <Signindialog /> */}
+                <CallNowButton className="flex justify-end text-xl  font-medium bg-bgpink text-pink py-4 px-4 lg:px-8 navbutton rounded-full hover:text-white hover:bg-pink" />
               </div>
             </div>
 

@@ -44,7 +44,7 @@ const Work = () => {
         <div className="text-center mb-14">
           <Fade
             direction={'up'}
-            delay={400}
+            delay={300}
             cascade
             damping={1e-1}
             triggerOnce={true}
