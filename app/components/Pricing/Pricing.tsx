@@ -2,7 +2,7 @@
 import Image from 'next/image';
 import { Fade } from 'react-awesome-reveal';
 
-const Newsletter = () => {
+const Pricing = () => {
   return (
     <div className="relative" id="price-section">
       <div className="mx-auto max-w-2xl min-h-[60vh] md:min-h-0 bg-pink br-50  md:max-w-7xl  rounded-lg">
@@ -107,4 +107,4 @@ const Newsletter = () => {
   );
 };
 
-export default Newsletter;
+export default Pricing;

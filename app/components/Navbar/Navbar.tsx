@@ -18,7 +18,7 @@ const navigation: NavigationItem[] = [
   { name: 'Home', href: '#home-section', current: false },
   { name: 'About us', href: '#about-section', current: false },
   { name: 'Pricing', href: '#price-section', current: false },
-  { name: 'Services', href: '#cook-section', current: false },
+  { name: 'Services', href: '#service-section', current: false },
 ];
 
 function classNames(...classes: string[]) {
