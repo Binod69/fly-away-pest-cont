@@ -77,30 +77,30 @@ const Services = () => {
                   <h3 className="text-2xl text-black font-semibold text-start mb-5">
                     Residential Services
                   </h3>
-                  <p className="text-sm text-[#98918E] text-start">
+                  <p className="text-sm text-textmuted text-start">
                     Customized pest control solutions for homeowners and
                     renters.
                   </p>
                   <article>
-                    <p className=" flex gap-2 items-center text-sm my-5 leading-relaxed text-[#98918E]">
+                    <p className=" flex gap-2 items-center text-sm my-5 leading-relaxed text-textmuted">
                       <span>
                         <CheckCircleIcon className="h-5 w-5" />
                       </span>
                       Whole home inspection
                     </p>
-                    <p className=" flex gap-2 items-center text-sm  leading-relaxed text-[#98918E]">
+                    <p className=" flex gap-2 items-center text-sm  leading-relaxed text-textmuted">
                       <span>
                         <CheckCircleIcon className="h-5 w-5" />
                       </span>
                       Custom treatment plans
                     </p>
-                    <p className=" flex gap-2 items-center text-sm mt-5 leading-relaxed text-[#98918E]">
+                    <p className=" flex gap-2 items-center text-sm mt-5 leading-relaxed text-textmuted">
                       <span>
                         <CheckCircleIcon className="h-5 w-5" />
                       </span>
                       Child and pet-safe methods
                     </p>
-                    <p className=" flex gap-2 items-center text-sm mt-5 leading-relaxed text-[#98918E]">
+                    <p className=" flex gap-2 items-center text-sm mt-5 leading-relaxed text-textmuted">
                       <span>
                         <CheckCircleIcon className="h-5 w-5" />
                       </span>
@@ -115,7 +115,7 @@ const Services = () => {
                     <h3 className="text-2xl text-black font-semibold text-start mb-5">
                       Commercial Services
                     </h3>
-                    <p className="text-sm text-[#98918E] text-start">
+                    <p className="text-sm text-textmuted text-start">
                       Professional pest management for businesses and commercial
                       properties.
                     </p>

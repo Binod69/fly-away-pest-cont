@@ -1,7 +1,7 @@
 import Banner from './components/Banner/index';
 import Features from './components/Work/index';
 import Cook from './components/Cook/index';
-import Expert from './components/Expert/index';
+import Expert from './components/Faq/Faq';
 import Services from './components/Services/Services';
 import Pricing from './components/Pricing/Pricing';
 
