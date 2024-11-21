@@ -161,13 +161,15 @@ const Services = () => {
           </div>
         </div>
       </div>
-      <h2 className="text-pink text-lg font-normal  tracking-widest uppercase ls-51 text-center">
-        Our Commitment
-      </h2>
-      <p className="text-xs md:text-sm p-3  text-center text-[#98918E]">
-        We take pride in being more than just a pest control service -
-        we&apos;re your partners in creating a safe, pest-free environment.
-      </p>
+      <article className="mb-10 md:mb-20">
+        <h2 className="text-pink text-lg font-normal  tracking-widest uppercase ls-51 text-center">
+          Our Commitment
+        </h2>
+        <p className="text-xs md:text-sm p-3  text-center text-[#98918E]">
+          We take pride in being more than just a pest control service -
+          we&apos;re your partners in creating a safe, pest-free environment.
+        </p>
+      </article>
     </div>
   );
 };
