@@ -5,17 +5,15 @@ import Expert from './components/Expert/index';
 import Gallery from './components/Gallery/index';
 import Newsletter from './components/Newsletter/Newsletter';
 
-
-
 export default function Home() {
   return (
     <main>
       <Banner />
       <Features />
+      <Newsletter />
       <Cook />
       <Expert />
       <Gallery />
-      <Newsletter />
     </main>
-  )
+  );
 }
