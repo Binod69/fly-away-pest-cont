@@ -130,7 +130,7 @@ const Reviews: React.FC = () => {
         <SlickSlider {...sliderSettings}>
           {googleReviews.map((review) => (
             <div key={review.id} className="p-4">
-              <div className="card-b p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow h-full">
+              <div className="card-b p-6 rounded-lg shadow-sm hover:shadow-lg transition-shadow h-full">
                 <div className="flex items-center mb-4">
                   <div className="mr-4">
                     {review.avatar ? (

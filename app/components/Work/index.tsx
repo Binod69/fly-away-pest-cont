@@ -75,7 +75,7 @@ const Work = () => {
             triggerOnce={true}
           >
             {cardData.map((items, i) => (
-              <div className="card-b p-8 relative rounded-3xl" key={i}>
+              <div className="card-b  p-8 relative rounded-3xl" key={i}>
                 <div className="work-img-bg rounded-full flex justify-center absolute top-[-50%] sm:top-[-40%] md:top-[-55%] lg:top-[-45%] left-[0%]">
                   <Image
                     src={items.imgSrc}

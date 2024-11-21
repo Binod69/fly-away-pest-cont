@@ -32,7 +32,7 @@ const Services = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-12 my-16 sm:space-x-6 space-y-6 md:space-y-0 px-6">
-          <div className="col-span-6 flex justify-center overflow-hidden rounded-3xl">
+          <div className="col-span-6 flex shadow-sm justify-center overflow-hidden rounded-3xl">
             <div className="card-b p-10 rounded-md">
               <h3 className="text-2xl text-black font-semibold text-start mb-5">
                 General Pest Control
@@ -70,10 +70,10 @@ const Services = () => {
             </div>
           </div>
 
-          <div className="col-span-6 flex justify-center">
+          <div className="col-span-6  flex justify-center">
             <div className="grid grid-rows-1 grid-flow-row gap-4">
-              <div className="row-span-1 overflow-hidden rounded-3xl">
-                <div className="card-b p-10 rounded-md">
+              <div className="row-span-1 shadow-sm overflow-hidden rounded-3xl">
+                <div className="card-b  p-10 rounded-md">
                   <h3 className="text-2xl text-black font-semibold text-start mb-5">
                     Residential Services
                   </h3>
@@ -110,7 +110,7 @@ const Services = () => {
                 </div>
               </div>
               <div className="grid grid-cols-1 gap-2">
-                <div className="overflow-hidden rounded-3xl">
+                <div className="overflow-hidden shadow-sm rounded-3xl">
                   <div className="card-b p-10 rounded-md">
                     <h3 className="text-2xl text-black font-semibold text-start mb-5">
                       Commercial Services
