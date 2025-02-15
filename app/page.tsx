@@ -1,5 +1,5 @@
 import Banner from './components/Banner/index';
-import Features from './components/Work/index';
+import About from './components/About/index';
 // import Cook from './components/Cook/index';
 import Reviews from './components/Reviews/Reviews';
 import Services from './components/Services/Services';
@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <main>
       <Banner />
-      <Features />
+      <About />
       <Pricing />
       <Services />
       {/* <Cook /> */}

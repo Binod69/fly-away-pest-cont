@@ -10,38 +10,20 @@ const Pricing = () => {
           {/* COLUMN-1 */}
           <div className="col-span-7">
             <div className="m-10 lg:ml-32 lg:mt-20 lg:mb-20">
-              <Fade
-                direction={'up'}
-                delay={400}
-                cascade
-                damping={1e-1}
-                triggerOnce={true}
-              >
+              
                 <h3 className="text-lg font-normal text-white mb-3 ls-51">
                   {' '}
                   Affordable Pricing
                 </h3>
-              </Fade>
-              <Fade
-                direction={'up'}
-                delay={800}
-                cascade
-                damping={1e-1}
-                triggerOnce={true}
-              >
+            
+              
                 <h3 className="text-3xl md:text-5xl font-semibold text-white mb-4">
                   Get Rid of Pests, Not Your Savings
                 </h3>
-              </Fade>
+             
 
               <div>
-                <Fade
-                  direction={'up'}
-                  delay={1200}
-                  cascade
-                  damping={1e-1}
-                  triggerOnce={true}
-                >
+               
                   <p className=" text-xs font-normal text-white">
                     Professional pest control shouldn&apos;t break the bank. Our
                     straightforward $99 treatment plan gives you peace of mind
@@ -51,7 +33,7 @@ const Pricing = () => {
                   {/* <div className="relative text-white focus-within:text-white flex flex-row-reverse shadow-fi rounded-full">
                     <div className="absolute inset-y-0 right-0 flex items-center pr-2"></div>
                   </div> */}
-                </Fade>
+               
               </div>
             </div>
           </div>
