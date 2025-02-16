@@ -1,10 +1,13 @@
-import './globals.css';
-import Navbar from './components/Navbar/index';
-import Footer from './components/Footer/Footer';
+import "./globals.css";
+
+import { Analytics } from "@vercel/analytics/react";
+
+import Navbar from "./components/Navbar/index";
+import Footer from "./components/Footer/Footer";
 
 export const metadata = {
-  title: 'Fly Away Pest Control Qld',
-  description: 'Best Pest Control in Australia',
+  title: "Fly Away Pest Control Qld",
+  description: "Best Pest Control in Australia",
 };
 
 export default function RootLayout({
@@ -18,6 +21,7 @@ export default function RootLayout({
         <Navbar />
         {children}
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
