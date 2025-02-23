@@ -230,9 +230,13 @@
 
 // export default Footer;
 
-import Link from 'next/link'
-import { EnvelopeIcon, PhoneIcon, MapPinIcon, } from '@heroicons/react/24/outline'
-import Image from 'next/image'
+import Link from "next/link";
+import {
+  EnvelopeIcon,
+  PhoneIcon,
+  MapPinIcon,
+} from "@heroicons/react/24/outline";
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -243,17 +247,19 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <div>
-              <Image
-                 src={'/images/logo/Logo.png'}
-                 alt="barnd logo"
-                 width={50}
-                 height={50}
-               />
+                <Image
+                  src={"/images/Logo/logo.png"}
+                  alt="brand logo"
+                  width={50}
+                  height={50}
+                />
               </div>
-              <span className="text-xl font-semibold">Fly Away Pest Control</span>
+              <span className="text-xl font-semibold">
+                Fly Away Pest Control
+              </span>
             </div>
             <p className="text-sm text-lightgrey">
-            Your Home, Our Shield. Zero Pests Guaranteed.
+              Your Home, Our Shield. Zero Pests Guaranteed.
             </p>
           </div>
 
@@ -261,11 +267,38 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
-              <li><Link href="/" className="text-lightgrey hover:text-pink transition-colors">Home</Link></li>
-              <li><Link href="/#about-section" className="text-lightgrey hover:text-pink transition-colors">About</Link></li>
-              <li><Link href="/#pricing-section" className="text-lightgrey hover:text-pink transition-colors">Pricing</Link></li>
-              <li><Link href="/services" className="text-lightgrey hover:text-pink transition-colors">Services</Link></li>
-              
+              <li>
+                <Link
+                  href="/"
+                  className="text-lightgrey hover:text-pink transition-colors"
+                >
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/#about-section"
+                  className="text-lightgrey hover:text-pink transition-colors"
+                >
+                  About
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/#pricing-section"
+                  className="text-lightgrey hover:text-pink transition-colors"
+                >
+                  Pricing
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/services"
+                  className="text-lightgrey hover:text-pink transition-colors"
+                >
+                  Services
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -274,16 +307,18 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
             <ul className="space-y-2 flex flex-col items-center justify-center">
               <li className="flex items-center justify-center space-x-2 text-lightgrey text-sm">
-               <EnvelopeIcon className='h-5 w-10'/>
+                <EnvelopeIcon className="h-5 w-10" />
                 <span>flyawaypestcontrol@gmail.com</span>
               </li>
               <li className="flex items-center space-x-2 text-lightgrey text-sm">
-                <PhoneIcon  className=' h-5 w-5' />
+                <PhoneIcon className=" h-5 w-5" />
                 <span>+61 469 114 477</span>
               </li>
               <li className="flex items-center space-x-2 text-lightgrey text-sm">
-                <MapPinIcon className=' h-5 w-10'  />
-                <span>140-142 Eagleby Road , Eagleby, QLD, Australia, Queensland</span>
+                <MapPinIcon className=" h-5 w-10" />
+                <span>
+                  140-142 Eagleby Road , Eagleby, QLD, Australia, Queensland
+                </span>
               </li>
             </ul>
           </div>
@@ -292,12 +327,12 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Follow Us</h3>
             <div className="">
-            <Link
+              <Link
                 href="https://www.facebook.com/profile.php?id=61566863571825"
                 className="bg-white h-10 w-10 shadow-xl text-base rounded-full flex items-center justify-center footer-icons hover:bg-pink"
               >
                 <Image
-                  src={'/images/Footer/facebook.svg'}
+                  src={"/images/Footer/facebook.svg"}
                   alt="facebook logo"
                   width={15}
                   height={15}
@@ -317,12 +352,12 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="mt-8 pt-8 border-t border-pink text-center text-sm text-lightgrey">
-          © {new Date().getFullYear()} Fly Away Pest Control Qld. All rights reserved.
+          © {new Date().getFullYear()} Fly Away Pest Control Qld. All rights
+          reserved.
         </div>
       </div>
     </footer>
-  )
-}
+  );
+};
 
-
-export default Footer
+export default Footer;
