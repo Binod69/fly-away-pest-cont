@@ -330,6 +330,7 @@ const Footer = () => {
               <Link
                 href="https://www.facebook.com/profile.php?id=61566863571825"
                 className="bg-white h-10 w-10 shadow-xl text-base rounded-full flex items-center justify-center footer-icons hover:bg-pink"
+                target="blank"
               >
                 <Image
                   src={"/images/Footer/facebook.svg"}

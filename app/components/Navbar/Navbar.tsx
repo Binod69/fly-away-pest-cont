@@ -1,12 +1,12 @@
-import Link from 'next/link';
-import React from 'react';
-import Image from 'next/image';
-import { Disclosure } from '@headlessui/react';
-import { Bars3Icon } from '@heroicons/react/24/outline';
+import Link from "next/link";
+import React from "react";
+import Image from "next/image";
+import { Disclosure } from "@headlessui/react";
+import { Bars3Icon } from "@heroicons/react/24/outline";
 
-import Drawer from './Drawer';
-import Drawerdata from './Drawerdata';
-import CallNowButton from './CallButton';
+import Drawer from "./Drawer";
+import Drawerdata from "./Drawerdata";
+import CallNowButton from "./CallButton";
 
 interface NavigationItem {
   name: string;
@@ -15,14 +15,14 @@ interface NavigationItem {
 }
 
 const navigation: NavigationItem[] = [
-  { name: 'Home', href: '#home-section', current: false },
-  { name: 'About us', href: '#about-section', current: false },
-  { name: 'Pricing', href: '#price-section', current: false },
-  { name: 'Services', href: '#service-section', current: false },
+  { name: "Home", href: "#home-section", current: false },
+  { name: "About us", href: "#about-section", current: false },
+  { name: "Pricing", href: "#price-section", current: false },
+  { name: "Services", href: "#service-section", current: false },
 ];
 
 function classNames(...classes: string[]) {
-  return classes.filter(Boolean).join(' ');
+  return classes.filter(Boolean).join(" ");
 }
 
 const Navbar = () => {
@@ -47,7 +47,7 @@ const Navbar = () => {
                   href="/"
                   className="text-2xl font-semibold text-black ml-4"
                 >
-                  Fly Away Qld
+                  Fly Away Pest Control
                 </Link>
               </div>
               <div className="hidden sm:flex flex-shrink-0 items-center border-right">
@@ -61,7 +61,7 @@ const Navbar = () => {
                   href="/"
                   className="text-2xl font-semibold text-black ml-4"
                 >
-                  Fly Away Qld
+                  Fly Away Pest Control
                 </Link>
               </div>
 
@@ -75,11 +75,11 @@ const Navbar = () => {
                       href={item.href}
                       className={classNames(
                         item.current
-                          ? 'bg-black'
-                          : 'navlinks hover:opacity-100',
-                        'px-3 py-4 rounded-md text-lg font-normal opacity-50 hover:text-black space-links'
+                          ? "bg-black"
+                          : "navlinks hover:opacity-100",
+                        "px-3 py-4 rounded-md text-lg font-normal opacity-50 hover:text-black space-links"
                       )}
-                      aria-current={item.href ? 'page' : undefined}
+                      aria-current={item.href ? "page" : undefined}
                     >
                       {item.name}
                     </Link>
@@ -89,7 +89,7 @@ const Navbar = () => {
               <div className="gap-6 hidden lg:flex ">
                 <div className="flex items-center gap-2">
                   <Image
-                    src={'/images/Navbar/phone.svg'}
+                    src={"/images/Navbar/phone.svg"}
                     alt="phone-image"
                     width={19}
                     height={19}
